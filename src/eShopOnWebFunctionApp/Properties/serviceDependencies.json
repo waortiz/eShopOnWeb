@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "cosmosdb1": {
+      "type": "cosmosdb",
+      "connectionId": "AccountEndpoint=https://eshoponwebwa.documents.azure.com:443/;AccountKey=0y5finKaSRU9Xg6NF97ckFNEilOIZQZ4rwSx2ve9jiTzL0K5qbynKy4f3gRs1tWVzNQTeDlOBPV3ACDbqSxuZA==;",
+      "dynamicId": null
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "appInsights1": {
+      "type": "appInsights",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    }
+  }
+}
